@@ -17,3 +17,85 @@ header {
     align-items: center;
     font-family: sans-serif;
 }
+
+.acount {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3px;
+}
+
+.logoGoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 95px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+.search {
+    border: 1px solid white;
+    border-radius: 50px;
+    display: flex;
+    width: 40%;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 458px;
+    background: white;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftsearch {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.rightsearch {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 25px;
+    gap: 20px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.inputtext {
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 440px;
+    height: 44px;
+}
+
+.google-button {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.google-button button {
+    background-color: #303134;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 5px;
+}
+
+.google-button button:hover {
+    border: 1px solid gainsboro;
+}
