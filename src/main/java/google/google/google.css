@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color:  #202124;
+body {
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
 }
