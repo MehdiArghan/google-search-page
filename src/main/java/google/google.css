@@ -99,3 +99,38 @@ input::placeholder {
 .google-button button:hover {
     border: 1px solid gainsboro;
 }
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 32px;
+    width: 100%;
+    background-color: #171717;
+}
+
+.footer-left {
+    margin-top: 6px;
+    margin-left: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    font-family: sans-serif;
+    gap: 20px;
+}
+
+.footer-right {
+    margin-top: 6px;
+    margin-right: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    font-family: sans-serif;
+    gap: 20px;
+}
